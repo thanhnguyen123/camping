@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #faf4f2;
+}
+.clear {
+  clear: both;
+}
+/*-------------------------Header-------------------------*/
+.header {
+  background-color: #f8e1db;
+  padding: 10px 50px;
+}
+.header .navbar {
+  margin-top: 10px;
+}
+.header .navbar a {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.header .navbar a:hover {
+  color: #ff0000;
+}
+/*-------------------------End Header-------------------------*/
+
+
+/*-------------------------Carousel-------------------------*/
+.carousel {
+  background-image: url(../img/BG.png);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/*-------------------------End Carousel-------------------------*/
+
+
+/*-------------------------Activity-------------------------*/
+.activity {
+  padding: 80px 0;
+}
+.activity .title {
+  text-align: center;
+}
+.activity .title h2 {
+  color: #8d8d8d;
+  margin-top: 0;
+  font-size: 40px;
+}
+.activity .main .row .col {
+  float: left;
+  width: 25%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.activity .main .item {
+  background-color: #ffffff;
+  padding: 50px;
+  text-align: center;
+  border-radius: 25px;
+}
+.activity .main .thumbnail img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.activity .main .item h1 {
+  font-size: 23px;
+}
+.activity .main .item p {
+  font-size: 20px;
+  color: #8d8d8d;
+  padding: 0 20px;
+  line-height: 30px;
+}
+.activity .main .item a {
+  text-decoration: none;
+  padding: 10px 50px;
+  background-color: #e8e8e8;
+  color: #8d8d8d;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  cursor: pointer;
+}
+.activity .main .thumbnail {
+  position: relative;
+}
+.activity .main .thumbnail i {
+  color: #ff0000;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 15px;
+}
+.activity .more {
+  text-align: center;
+  margin: 40px 0;
+}
+.activity button {
+  padding: 15px 80px;
+  display: inline-block;
+  border: 3px solid #e76f51;
+  color: #e76f51;
+  border-radius: 25px;
+  background-color: #faf4f2;
+  font-size: 15px;
+  cursor: pointer;
+}
+/*-------------------------End Activity-------------------------*/
+
+
+/*-------------------------Contact-------------------------*/
+.contact {
+  background-color: #f8e1db;
+}
+
+.contact .contact-left img {
+  width: 600px;
+}
+.contact .contact-left {
+  background-image: url("../img/mask.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+.contact .contact-right {
+  width: 50%;
+  float: left;
+  color: #8d8d8d;
+  box-sizing: border-box;
+  padding: 0 50px;
+}
+.contact .contact-right h2 {
+  font-size: 40px;
+}
+.contact .contact-right h3 {
+  font-size: 25px;
+}
+.contact .contact-right p {
+  font-size: 20px;
+}
+.contact .contact-right i {
+  font-size: 30px;
+  color: #e76f51;
+}
+.contact .contact-right .infor2 .application {
+  float: left;
+}
+.contact .contact-right .infor2 .application img {
+  width: 200px;
+}
+.contact .contact-right .infor2 .socialmeida {
+  float: left;
+  margin-left: 10px;
+}
+.contact .contact-right .infor2 .socialmeida a {
+  display: inline-block;
+  margin-right: 15px;
+}
+/*-------------------------End Contact-------------------------*/
+
+
+/*-------------------------Footer-------------------------*/
+.footer {
+  background-color: #f8e1db;
+  margin-top: 120px;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 70px;
+}
+.footer .row .col-left {
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+}
+.footer .row .col-right {
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+}
+.footer .row .col-right ul li {
+  list-style: none;
+}
+.footer .row .col-right ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer .row {
+  line-height: 2;
+}
+.footer .license {
+  text-align: center;
+  font-size: 20px;
+}
+/*-------------------------End Footer-------------------------*/
